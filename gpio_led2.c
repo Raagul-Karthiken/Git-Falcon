@@ -1,9 +1,3 @@
-#include<stdio.h>
-#include<stdint.h>
-#include<stdbool.h>
-#include<stdlib.h>
-#include<string.h>
-
 #define GPIO_BASEADDR 0x40010000
 //#define GPIO_PIN_SET 1
 //#define GPIO_PIN_RESET 0
