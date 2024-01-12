@@ -25,6 +25,7 @@ int main(void)
 	GPIO_Init();
 	while(1)
 	{
+		for(int i=0;i<100000;i++);
 		GPIO_Toggle_outputpin();
 	}
 }
